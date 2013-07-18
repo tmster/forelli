@@ -1,4 +1,6 @@
 Forelli::Application.routes.draw do
+  get "main/index"
+
   resources :categories, :except => [:index, :show]
   resources :forums, :except => :index do
     resources :topics, :shallow => true, :except => :index do
@@ -8,6 +10,7 @@ Forelli::Application.routes.draw do
   end
 
   devise_for :users
+  root to: 'main#index'
 
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
 
