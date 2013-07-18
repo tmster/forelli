@@ -1,4 +1,10 @@
 Forelli::Application.routes.draw do
+  resources :games
+
+
+  resources :news
+
+
   get "main/index"
 
   resources :categories, :except => [:index, :show]
