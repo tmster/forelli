@@ -51,6 +51,7 @@ GEM
     fastercsv (1.5.5)
     font-awesome-rails (3.2.1.2)
       railties (>= 3.2, < 5.0)
+    forum_monster (1.0.4)
     haml (4.0.3)
       tilt
     hike (1.2.3)
@@ -152,6 +153,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   devise
   fastercsv
+  forum_monster
   jquery-rails
   rails (= 3.2.13)
   rails_admin

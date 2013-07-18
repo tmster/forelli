@@ -8,7 +8,7 @@ gem 'rails', '3.2.13'
 gem 'sqlite3'
 gem 'fastercsv' # Only required on Ruby 1.8 and below
 gem 'rails_admin'
-
+gem 'forum_monster'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
